@@ -10,11 +10,11 @@ public class CalculatorMainPage extends WebDriverBaseTestPage<WebDriverTestPage>
 
     QAFExtendedWebElement two = driver.findElement(By.id("com.google.android.calculator:id/digit_2"));
 
-
     @Override
     protected void openPage(PageLocator locator, Object... args) {
 
     }
+
 
     public String getTwoText() {
         return two.getText();

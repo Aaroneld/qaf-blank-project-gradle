@@ -1,6 +1,7 @@
 package com.qmetry.qaf.example.test;
 
 import com.qmetry.qaf.example.page.CalculatorMainPage;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 import com.qmetry.qaf.automation.ui.WebDriverTestCase;
 
